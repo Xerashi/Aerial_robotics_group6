@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tello_msgs__py",
+		"source" : "/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs/tello_msgs__py"
+	}
+}

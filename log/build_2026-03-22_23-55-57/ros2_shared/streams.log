@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared -- -j16 -l16
+[0.030s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared -- -j16 -l16
+[0.036s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared
+[0.043s] -- Install configuration: ""
+[0.043s] -- Execute custom install script
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[0.043s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/path.sh
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.bash
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.sh
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[0.044s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[0.044s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/package.dsv
+[0.051s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[0.051s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.051s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[0.051s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[0.051s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/package.xml
+[0.058s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared

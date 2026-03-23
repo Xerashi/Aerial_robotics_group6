@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (tello_gazebo) JobQueued: {'identifier': 'tello_gazebo', 'dependencies': OrderedDict()}
+[0.000126] (tello_gazebo) JobStarted: {'identifier': 'tello_gazebo'}
+[0.004899] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'cmake'}
+[0.005561] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo/install/tello_gazebo'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo/build/tello_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo/build/tello_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099326] (-) TimerEvent: {}
+[0.114931] (tello_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199388] (-) TimerEvent: {}
+[0.299696] (-) TimerEvent: {}
+[0.333346] (tello_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399745] (-) TimerEvent: {}
+[0.429740] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.498450] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.499804] (-) TimerEvent: {}
+[0.501686] (tello_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.502176] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.502731] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.504913] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.565687] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.568835] (tello_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.568962] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.569587] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.575876] (tello_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600005] (-) TimerEvent: {}
+[0.651234] (tello_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.688150] (tello_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700082] (-) TimerEvent: {}
+[0.711504] (tello_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.711613] (tello_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.711643] (tello_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.711665] (tello_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.711684] (tello_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.711703] (tello_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.711722] (tello_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.711742] (tello_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.711760] (tello_gazebo) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[0.711777] (tello_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.711796] (tello_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.711968] (tello_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.713299] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.719446] (tello_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.793563] (tello_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.800136] (-) TimerEvent: {}
+[0.818425] (tello_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.833059] (tello_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.900258] (-) TimerEvent: {}
+[0.998429] (tello_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.000317] (-) TimerEvent: {}
+[1.100521] (-) TimerEvent: {}
+[1.180735] (tello_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.183832] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.189266] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.190760] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.190957] (tello_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.193370] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.199387] (tello_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.200586] (-) TimerEvent: {}
+[1.214186] (tello_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.300673] (-) TimerEvent: {}
+[1.357764] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.362595] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.400778] (-) TimerEvent: {}
+[1.474333] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.474537] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.500819] (-) TimerEvent: {}
+[1.601041] (-) TimerEvent: {}
+[1.611200] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.611323] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.701117] (-) TimerEvent: {}
+[1.755959] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.756098] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.801248] (-) TimerEvent: {}
+[1.901500] (-) TimerEvent: {}
+[1.902745] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.902909] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.001590] (-) TimerEvent: {}
+[2.073964] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.074118] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.101656] (-) TimerEvent: {}
+[2.166516] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.201748] (-) TimerEvent: {}
+[2.301981] (-) TimerEvent: {}
+[2.402288] (-) TimerEvent: {}
+[2.502661] (-) TimerEvent: {}
+[2.602987] (-) TimerEvent: {}
+[2.703389] (-) TimerEvent: {}
+[2.803739] (-) TimerEvent: {}
+[2.904100] (-) TimerEvent: {}
+[3.004370] (-) TimerEvent: {}
+[3.104689] (-) TimerEvent: {}
+[3.205108] (-) TimerEvent: {}
+[3.305357] (-) TimerEvent: {}
+[3.405571] (-) TimerEvent: {}
+[3.505914] (-) TimerEvent: {}
+[3.606206] (-) TimerEvent: {}
+[3.706496] (-) TimerEvent: {}
+[3.806919] (-) TimerEvent: {}
+[3.907395] (-) TimerEvent: {}
+[4.007765] (-) TimerEvent: {}
+[4.108019] (-) TimerEvent: {}
+[4.208234] (-) TimerEvent: {}
+[4.308494] (-) TimerEvent: {}
+[4.408796] (-) TimerEvent: {}
+[4.509151] (-) TimerEvent: {}
+[4.609396] (-) TimerEvent: {}
+[4.709675] (-) TimerEvent: {}
+[4.810030] (-) TimerEvent: {}
+[4.910243] (-) TimerEvent: {}
+[5.010511] (-) TimerEvent: {}
+[5.110811] (-) TimerEvent: {}
+[5.211131] (-) TimerEvent: {}
+[5.311383] (-) TimerEvent: {}
+[5.411687] (-) TimerEvent: {}
+[5.512007] (-) TimerEvent: {}
+[5.612372] (-) TimerEvent: {}
+[5.712624] (-) TimerEvent: {}
+[5.812886] (-) TimerEvent: {}
+[5.913111] (-) TimerEvent: {}
+[6.013421] (-) TimerEvent: {}
+[6.113849] (-) TimerEvent: {}
+[6.214154] (-) TimerEvent: {}
+[6.314388] (-) TimerEvent: {}
+[6.414642] (-) TimerEvent: {}
+[6.515200] (-) TimerEvent: {}
+[6.615582] (-) TimerEvent: {}
+[6.716019] (-) TimerEvent: {}
+[6.816435] (-) TimerEvent: {}
+[6.916781] (-) TimerEvent: {}
+[7.017088] (-) TimerEvent: {}
+[7.117359] (-) TimerEvent: {}
+[7.217642] (-) TimerEvent: {}
+[7.318002] (-) TimerEvent: {}
+[7.418387] (-) TimerEvent: {}
+[7.518809] (-) TimerEvent: {}
+[7.619200] (-) TimerEvent: {}
+[7.719465] (-) TimerEvent: {}
+[7.819769] (-) TimerEvent: {}
+[7.920032] (-) TimerEvent: {}
+[8.020463] (-) TimerEvent: {}
+[8.120868] (-) TimerEvent: {}
+[8.221170] (-) TimerEvent: {}
+[8.321427] (-) TimerEvent: {}
+[8.421702] (-) TimerEvent: {}
+[8.521974] (-) TimerEvent: {}
+[8.622231] (-) TimerEvent: {}
+[8.722485] (-) TimerEvent: {}
+[8.822719] (-) TimerEvent: {}
+[8.922997] (-) TimerEvent: {}
+[9.023421] (-) TimerEvent: {}
+[9.123769] (-) TimerEvent: {}
+[9.174199] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.176489] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[9.176727] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[9.223836] (-) TimerEvent: {}
+[9.324081] (-) TimerEvent: {}
+[9.424338] (-) TimerEvent: {}
+[9.510097] (tello_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[9.524464] (-) TimerEvent: {}
+[9.624686] (-) TimerEvent: {}
+[9.724935] (-) TimerEvent: {}
+[9.825209] (-) TimerEvent: {}
+[9.925513] (-) TimerEvent: {}
+[9.931982] (tello_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[9.934901] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[9.944232] (tello_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[9.960618] (tello_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[9.975102] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[9.981024] (tello_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[9.996094] (tello_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[9.997630] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[9.997921] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[10.025582] (-) TimerEvent: {}
+[10.125891] (-) TimerEvent: {}
+[10.226256] (-) TimerEvent: {}
+[10.326500] (-) TimerEvent: {}
+[10.420766] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.424489] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.426563] (-) TimerEvent: {}
+[10.431296] (tello_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.449051] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.450370] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.450606] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.465268] (tello_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.475211] (tello_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.475940] (tello_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[10.501022] (tello_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[10.501647] (tello_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.502853] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.503158] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.503306] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.505266] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.505523] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.526643] (-) TimerEvent: {}
+[10.626863] (-) TimerEvent: {}
+[10.727291] (-) TimerEvent: {}
+[10.827628] (-) TimerEvent: {}
+[10.922286] (tello_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[10.927456] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.927686] (-) TimerEvent: {}
+[10.933589] (tello_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.949242] (tello_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[10.953071] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.959642] (tello_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.975507] (tello_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[10.975726] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.975944] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[10.976197] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.980343] (tello_gazebo) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[10.980785] (tello_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[10.980967] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[10.986992] (tello_gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[11.001969] (tello_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[11.027773] (-) TimerEvent: {}
+[11.044685] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.047993] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.054924] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.064512] (tello_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.075364] (tello_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.105734] (tello_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.107932] (tello_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.127867] (-) TimerEvent: {}
+[11.228038] (-) TimerEvent: {}
+[11.328330] (-) TimerEvent: {}
+[11.428749] (-) TimerEvent: {}
+[11.529141] (-) TimerEvent: {}
+[11.629359] (-) TimerEvent: {}
+[11.729694] (-) TimerEvent: {}
+[11.824673] (tello_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.829775] (-) TimerEvent: {}
+[11.930014] (-) TimerEvent: {}
+[12.030388] (-) TimerEvent: {}
+[12.130628] (-) TimerEvent: {}
+[12.212677] (tello_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.230711] (-) TimerEvent: {}
+[12.330952] (-) TimerEvent: {}
+[12.431378] (-) TimerEvent: {}
+[12.531740] (-) TimerEvent: {}
+[12.632054] (-) TimerEvent: {}
+[12.732399] (-) TimerEvent: {}
+[12.832634] (-) TimerEvent: {}
+[12.932874] (-) TimerEvent: {}
+[13.033182] (-) TimerEvent: {}
+[13.115540] (tello_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.123051] (tello_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.133233] (-) TimerEvent: {}
+[13.163613] (tello_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.175141] (tello_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.233337] (-) TimerEvent: {}
+[13.333559] (-) TimerEvent: {}
+[13.433854] (-) TimerEvent: {}
+[13.534259] (-) TimerEvent: {}
+[13.546272] (tello_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (find_package):\n'}
+[13.546397] (tello_gazebo) StderrLine: {'line': b'  By not providing "Findtello_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[13.546485] (tello_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[13.546541] (tello_gazebo) StderrLine: {'line': b'  "tello_msgs", but CMake did not find one.\n'}
+[13.546567] (tello_gazebo) StderrLine: {'line': b'\n'}
+[13.546589] (tello_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "tello_msgs" with\n'}
+[13.546609] (tello_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[13.546627] (tello_gazebo) StderrLine: {'line': b'\n'}
+[13.546646] (tello_gazebo) StderrLine: {'line': b'    tello_msgsConfig.cmake\n'}
+[13.546665] (tello_gazebo) StderrLine: {'line': b'    tello_msgs-config.cmake\n'}
+[13.546682] (tello_gazebo) StderrLine: {'line': b'\n'}
+[13.546699] (tello_gazebo) StderrLine: {'line': b'  Add the installation prefix of "tello_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[13.546717] (tello_gazebo) StderrLine: {'line': b'  "tello_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[13.546735] (tello_gazebo) StderrLine: {'line': b'  "tello_msgs" provides a separate development package or SDK, be sure it has\n'}
+[13.546774] (tello_gazebo) StderrLine: {'line': b'  been installed.\n'}
+[13.546797] (tello_gazebo) StderrLine: {'line': b'\n'}
+[13.546817] (tello_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[13.546944] (tello_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.546984] (tello_gazebo) StdoutLine: {'line': b'See also "/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo/build/tello_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[13.552701] (tello_gazebo) CommandEnded: {'returncode': 1}
+[13.563891] (tello_gazebo) JobEnded: {'identifier': 'tello_gazebo', 'rc': 1}
+[13.574238] (-) EventReactorShutdown: {}

@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.686s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_1.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_2.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_3.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_4.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_5.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_6.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_7.urdf
+[0.696s] -- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_8.urdf
+[0.728s] -- Configuring done
+[0.731s] -- Generating done
+[0.733s] -- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description
+[0.735s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description
+[0.736s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description -- -j16 -l16
+[0.760s] [ 11%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello.urdf[0m
+[0.761s] [ 22%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_1.urdf[0m
+[0.762s] [ 33%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_2.urdf[0m
+[0.765s] [ 44%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_4.urdf[0m
+[0.766s] [ 55%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_6.urdf[0m
+[0.767s] [ 77%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_5.urdf[0m
+[0.767s] [ 77%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_8.urdf[0m
+[0.768s] [100%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_3.urdf[0m
+[0.768s] [100%] [34m[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_7.urdf[0m
+[0.786s] [100%] Built target generate_urdf_2
+[0.786s] [100%] Built target generate_urdf
+[0.788s] [100%] Built target generate_urdf_1
+[0.793s] [100%] Built target generate_urdf_4
+[0.794s] [100%] Built target generate_urdf_8
+[0.794s] [100%] Built target generate_urdf_3
+[0.794s] [100%] Built target generate_urdf_5
+[0.795s] [100%] Built target generate_urdf_6
+[0.798s] [100%] Built target generate_urdf_7
+[0.804s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description -- -j16 -l16
+[0.805s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description
+[0.809s] -- Install configuration: ""
+[0.809s] -- Execute custom install script
+[0.810s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello.urdf
+[0.813s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[0.818s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[0.822s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[0.827s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[0.831s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[0.836s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[0.840s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[0.844s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[0.849s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[0.854s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[0.859s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[0.863s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+[0.869s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/path.sh
+[0.873s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/path.dsv
+[0.877s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.bash
+[0.882s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.sh
+[0.886s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.zsh
+[0.890s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.dsv
+[0.895s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/package.dsv
+[0.900s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[0.904s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[0.909s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[0.913s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/package.xml
+[0.919s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description

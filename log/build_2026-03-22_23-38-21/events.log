@@ -1,0 +1,1035 @@
+[0.000000] (-) TimerEvent: {}
+[0.000400] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.000415] (tello_description) JobQueued: {'identifier': 'tello_description', 'dependencies': OrderedDict()}
+[0.000423] (tello_msgs) JobQueued: {'identifier': 'tello_msgs', 'dependencies': OrderedDict()}
+[0.000428] (tello_driver) JobQueued: {'identifier': 'tello_driver', 'dependencies': OrderedDict([('ros2_shared', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared'), ('tello_msgs', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs')])}
+[0.000436] (tello_gazebo) JobQueued: {'identifier': 'tello_gazebo', 'dependencies': OrderedDict([('tello_msgs', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs')])}
+[0.000457] (tello_msgs) JobStarted: {'identifier': 'tello_msgs'}
+[0.006848] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.008971] (tello_description) JobStarted: {'identifier': 'tello_description'}
+[0.010817] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'cmake'}
+[0.011318] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013602] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.014402] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/ros2_shared', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016939] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'cmake'}
+[0.017637] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099713] (-) TimerEvent: {}
+[0.139908] (tello_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.140139] (tello_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.140959] (ros2_shared) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199781] (-) TimerEvent: {}
+[0.300055] (-) TimerEvent: {}
+[0.313297] (ros2_shared) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.317047] (tello_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.325726] (tello_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400239] (-) TimerEvent: {}
+[0.421039] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.430990] (tello_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.446073] (tello_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.479012] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.479322] (tello_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.481896] (tello_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.482023] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.482391] (tello_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.482439] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.483025] (tello_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.483141] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.485225] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.485409] (tello_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500354] (-) TimerEvent: {}
+[0.519189] (tello_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.522112] (tello_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.522260] (tello_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.522436] (tello_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.524434] (tello_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.544050] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.545115] (tello_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.547484] (ros2_shared) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.547607] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.547720] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.548256] (tello_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.548399] (tello_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.548660] (tello_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.555333] (tello_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.555433] (ros2_shared) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.588658] (tello_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.591742] (tello_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.591856] (tello_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.592039] (tello_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.592968] (tello_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600489] (-) TimerEvent: {}
+[0.633653] (tello_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.636774] (ros2_shared) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.664894] (tello_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.670955] (tello_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.671136] (ros2_shared) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.688997] (tello_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.692501] (tello_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.695328] (tello_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.697203] (tello_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700530] (-) TimerEvent: {}
+[0.704443] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello.urdf\n'}
+[0.704555] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_1.urdf\n'}
+[0.704613] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_2.urdf\n'}
+[0.704747] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_3.urdf\n'}
+[0.704887] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_4.urdf\n'}
+[0.704919] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_5.urdf\n'}
+[0.704944] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_6.urdf\n'}
+[0.704966] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_7.urdf\n'}
+[0.704985] (tello_description) StdoutLine: {'line': b'-- creating rules for /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_8.urdf\n'}
+[0.722876] (ros2_shared) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.724930] (ros2_shared) StdoutLine: {'line': b'-- Generating done\n'}
+[0.725654] (ros2_shared) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared\n'}
+[0.728171] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.729144] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.729177] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared', '--', '-j16', '-l16'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.736572] (tello_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.740302] (tello_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.741622] (tello_description) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description\n'}
+[0.743920] (tello_description) CommandEnded: {'returncode': 0}
+[0.744262] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'build'}
+[0.744802] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description', '--', '-j16', '-l16'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.749036] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.749536] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[0.753576] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/ros2_shared'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.757147] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.757357] (ros2_shared) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.758191] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[0.763226] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[0.768408] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[0.769061] (tello_description) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello.urdf\x1b[0m\n'}
+[0.769611] (tello_description) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_1.urdf\x1b[0m\n'}
+[0.771101] (tello_description) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_2.urdf\x1b[0m\n'}
+[0.773756] (tello_description) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_4.urdf\x1b[0m\n'}
+[0.774431] (tello_description) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_6.urdf\x1b[0m\n'}
+[0.775135] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[0.776150] (tello_description) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_5.urdf\x1b[0m\n'}
+[0.776244] (tello_description) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_8.urdf\x1b[0m\n'}
+[0.776828] (tello_description) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_3.urdf\x1b[0m\n'}
+[0.776911] (tello_description) StdoutLine: {'line': b'[100%] \x1b[34m\x1b[1mGenerate /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description/urdf/tello_7.urdf\x1b[0m\n'}
+[0.781764] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[0.789821] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[0.795253] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_2\n'}
+[0.795441] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf\n'}
+[0.796407] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[0.796987] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_1\n'}
+[0.800676] (-) TimerEvent: {}
+[0.801615] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_4\n'}
+[0.802438] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_8\n'}
+[0.802864] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_3\n'}
+[0.803231] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_5\n'}
+[0.803401] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[0.803977] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_6\n'}
+[0.806444] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_7\n'}
+[0.807501] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[0.811938] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[0.812832] (tello_description) CommandEnded: {'returncode': 0}
+[0.813116] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'install'}
+[0.813648] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_description'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.817203] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[0.817486] (tello_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.817755] (tello_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.818520] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello.urdf\n'}
+[0.820967] (tello_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.821516] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[0.822208] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_1.urdf\n'}
+[0.825845] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[0.826649] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_2.urdf\n'}
+[0.830717] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[0.831307] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_3.urdf\n'}
+[0.835490] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_4.urdf\n'}
+[0.835700] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[0.840227] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_5.urdf\n'}
+[0.840389] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.844515] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_6.urdf\n'}
+[0.844740] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[0.848932] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_7.urdf\n'}
+[0.849036] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[0.853341] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/urdf/tello_8.urdf\n'}
+[0.853511] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[0.858083] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description\n'}
+[0.859161] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.861774] (tello_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.862509] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description\n'}
+[0.867619] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/ament_prefix_path.sh\n'}
+[0.872344] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv\n'}
+[0.872771] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[0.877468] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/path.sh\n'}
+[0.881974] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/environment/path.dsv\n'}
+[0.885798] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.bash\n'}
+[0.890412] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.sh\n'}
+[0.894777] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.zsh\n'}
+[0.899182] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/local_setup.dsv\n'}
+[0.900755] (-) TimerEvent: {}
+[0.903564] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/package.dsv\n'}
+[0.908477] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/ament_index/resource_index/packages/tello_description\n'}
+[0.913303] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake\n'}
+[0.917549] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake\n'}
+[0.922270] (tello_description) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_description/share/tello_description/package.xml\n'}
+[0.928010] (tello_description) CommandEnded: {'returncode': 0}
+[0.933372] (tello_description) JobEnded: {'identifier': 'tello_description', 'rc': 0}
+[1.000848] (-) TimerEvent: {}
+[1.028738] (tello_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100940] (-) TimerEvent: {}
+[1.136080] (tello_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201095] (-) TimerEvent: {}
+[1.274702] (tello_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301175] (-) TimerEvent: {}
+[1.323325] (tello_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.324421] (tello_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.401242] (-) TimerEvent: {}
+[1.456141] (tello_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.456281] (tello_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.456312] (tello_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.456338] (tello_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.466588] (tello_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.501422] (-) TimerEvent: {}
+[1.541752] (tello_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.564612] (tello_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.569575] (tello_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs\n'}
+[1.573295] (tello_msgs) CommandEnded: {'returncode': 0}
+[1.573620] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'build'}
+[1.574119] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs', '--', '-j16', '-l16'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.596232] (tello_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.598341] (tello_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.598909] (tello_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.601468] (-) TimerEvent: {}
+[1.605406] (tello_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_tello_msgs\n'}
+[1.701560] (-) TimerEvent: {}
+[1.720470] (tello_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.720655] (tello_msgs) StdoutLine: {'line': b'creating tello_msgs.egg-info\n'}
+[1.720895] (tello_msgs) StdoutLine: {'line': b'writing tello_msgs.egg-info/PKG-INFO\n'}
+[1.721083] (tello_msgs) StdoutLine: {'line': b'writing dependency_links to tello_msgs.egg-info/dependency_links.txt\n'}
+[1.721123] (tello_msgs) StdoutLine: {'line': b'writing top-level names to tello_msgs.egg-info/top_level.txt\n'}
+[1.721281] (tello_msgs) StdoutLine: {'line': b"writing manifest file 'tello_msgs.egg-info/SOURCES.txt'\n"}
+[1.722853] (tello_msgs) StdoutLine: {'line': b"reading manifest file 'tello_msgs.egg-info/SOURCES.txt'\n"}
+[1.723091] (tello_msgs) StdoutLine: {'line': b"writing manifest file 'tello_msgs.egg-info/SOURCES.txt'\n"}
+[1.736858] (tello_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_tello_msgs_egg\n'}
+[1.801612] (-) TimerEvent: {}
+[1.878718] (tello_msgs) StdoutLine: {'line': b'[  6%] Built target tello_msgs__rs\n'}
+[1.901996] (-) TimerEvent: {}
+[1.921837] (tello_msgs) StdoutLine: {'line': b'[  6%] Built target tello_msgs__cpp\n'}
+[1.924910] (tello_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/msg/detail/flight_data__functions.c.o\x1b[0m\n'}
+[1.925293] (tello_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/srv/detail/tello_action__functions.c.o\x1b[0m\n'}
+[1.925419] (tello_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/msg/detail/tello_response__functions.c.o\x1b[0m\n'}
+[1.927363] (tello_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.927644] (tello_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.927798] (tello_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.978993] (tello_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtello_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.002077] (-) TimerEvent: {}
+[2.041513] (tello_msgs) StdoutLine: {'line': b'[ 20%] Built target tello_msgs__rosidl_generator_c\n'}
+[2.047426] (tello_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.047713] (tello_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.048297] (tello_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.102159] (-) TimerEvent: {}
+[2.202533] (-) TimerEvent: {}
+[2.234162] (tello_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/msg/tello_response__type_support.cpp.o\x1b[0m\n'}
+[2.234794] (tello_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/msg/flight_data__type_support.cpp.o\x1b[0m\n'}
+[2.237053] (tello_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/srv/tello_action__type_support.cpp.o\x1b[0m\n'}
+[2.251372] (tello_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/msg/detail/tello_response__type_support.cpp.o\x1b[0m\n'}
+[2.251538] (tello_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/msg/detail/flight_data__type_support.cpp.o\x1b[0m\n'}
+[2.251579] (tello_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/srv/detail/tello_action__type_support.cpp.o\x1b[0m\n'}
+[2.269053] (tello_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/msg/detail/dds_fastrtps/tello_response__type_support.cpp.o\x1b[0m\n'}
+[2.269255] (tello_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/srv/detail/dds_fastrtps/tello_action__type_support.cpp.o\x1b[0m\n'}
+[2.269300] (tello_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/msg/detail/dds_fastrtps/flight_data__type_support.cpp.o\x1b[0m\n'}
+[2.302639] (-) TimerEvent: {}
+[2.404892] (-) TimerEvent: {}
+[2.405156] (tello_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/srv/tello_action__type_support.cpp.o\x1b[0m\n'}
+[2.405304] (tello_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/msg/flight_data__type_support.cpp.o\x1b[0m\n'}
+[2.405352] (tello_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/msg/tello_response__type_support.cpp.o\x1b[0m\n'}
+[2.438530] (tello_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.449409] (tello_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/msg/detail/tello_response__type_support.c.o\x1b[0m\n'}
+[2.450860] (tello_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/msg/detail/flight_data__type_support.c.o\x1b[0m\n'}
+[2.451042] (tello_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/srv/detail/tello_action__type_support.c.o\x1b[0m\n'}
+[2.453643] (tello_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/msg/detail/flight_data__type_support_c.cpp.o\x1b[0m\n'}
+[2.453784] (tello_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/msg/detail/tello_response__type_support_c.cpp.o\x1b[0m\n'}
+[2.455305] (tello_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/srv/detail/tello_action__type_support_c.cpp.o\x1b[0m\n'}
+[2.490528] (tello_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libtello_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.491244] (tello_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.505067] (-) TimerEvent: {}
+[2.530690] (tello_msgs) StdoutLine: {'line': b'[ 70%] Built target tello_msgs__rosidl_typesupport_c\n'}
+[2.540147] (tello_msgs) StdoutLine: {'line': b'[ 70%] Built target tello_msgs__rosidl_typesupport_introspection_c\n'}
+[2.545787] (tello_msgs) StdoutLine: {'line': b'[ 70%] Built target tello_msgs__rosidl_typesupport_cpp\n'}
+[2.586302] (tello_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.598166] (tello_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.605165] (-) TimerEvent: {}
+[2.647512] (tello_msgs) StdoutLine: {'line': b'[ 75%] Built target tello_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.669352] (tello_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.672724] (tello_msgs) StdoutLine: {'line': b'[ 77%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.705307] (-) TimerEvent: {}
+[2.744316] (tello_msgs) StdoutLine: {'line': b'[ 77%] Built target tello_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.756178] (tello_msgs) StdoutLine: {'line': b'[ 77%] Built target tello_msgs\n'}
+[2.765722] (tello_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.805398] (-) TimerEvent: {}
+[2.905820] (-) TimerEvent: {}
+[3.006111] (-) TimerEvent: {}
+[3.106331] (-) TimerEvent: {}
+[3.206753] (-) TimerEvent: {}
+[3.280312] (tello_msgs) StdoutLine: {'line': b'[ 79%] Built target tello_msgs__py\n'}
+[3.289971] (tello_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/msg/_flight_data_s.c.o\x1b[0m\n'}
+[3.290320] (tello_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/srv/_tello_action_s.c.o\x1b[0m\n'}
+[3.290903] (tello_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/msg/_tello_response_s.c.o\x1b[0m\n'}
+[3.306899] (-) TimerEvent: {}
+[3.372142] (tello_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tello_msgs/libtello_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.406973] (-) TimerEvent: {}
+[3.428238] (tello_msgs) StdoutLine: {'line': b'[ 87%] Built target tello_msgs__rosidl_generator_py\n'}
+[3.438112] (tello_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.438279] (tello_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.438937] (tello_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.485589] (tello_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.485729] (tello_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.485764] (tello_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.507090] (-) TimerEvent: {}
+[3.531423] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.531557] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_c__pyext\n'}
+[3.531588] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.537988] (tello_msgs) CommandEnded: {'returncode': 0}
+[3.538507] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'install'}
+[3.539183] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.542907] (tello_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.543214] (tello_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.543720] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs\n'}
+[3.548489] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__functions.h\n'}
+[3.552512] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__struct.h\n'}
+[3.557086] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__type_support.h\n'}
+[3.561157] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__functions.h\n'}
+[3.565301] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__struct.h\n'}
+[3.569613] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__type_support.h\n'}
+[3.573716] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/flight_data.h\n'}
+[3.577522] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.581332] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/tello_response.h\n'}
+[3.586219] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__functions.h\n'}
+[3.590085] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__struct.h\n'}
+[3.593845] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__type_support.h\n'}
+[3.598153] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/tello_action.h\n'}
+[3.602664] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/library_path.sh\n'}
+[3.606773] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/library_path.dsv\n'}
+[3.607176] (-) TimerEvent: {}
+[3.611447] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.615435] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_c.h\n'}
+[3.619436] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.623246] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_c.h\n'}
+[3.627648] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_c.h\n'}
+[3.631866] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_c.h\n'}
+[3.635706] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.639562] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_c.h\n'}
+[3.643643] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__builder.hpp\n'}
+[3.647500] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__struct.hpp\n'}
+[3.651271] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__traits.hpp\n'}
+[3.655153] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__type_support.hpp\n'}
+[3.659048] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__builder.hpp\n'}
+[3.662848] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__struct.hpp\n'}
+[3.666699] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__traits.hpp\n'}
+[3.670448] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__type_support.hpp\n'}
+[3.674991] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/flight_data.hpp\n'}
+[3.678984] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.683186] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/tello_response.hpp\n'}
+[3.687444] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__builder.hpp\n'}
+[3.691332] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__struct.hpp\n'}
+[3.695112] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__traits.hpp\n'}
+[3.699057] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__type_support.hpp\n'}
+[3.703096] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/tello_action.hpp\n'}
+[3.707291] (-) TimerEvent: {}
+[3.707465] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.711379] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.715348] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.719767] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.723905] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.727733] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.731764] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.735808] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh\n'}
+[3.739822] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv\n'}
+[3.744191] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[3.748127] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.752013] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.755858] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[3.760028] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/__init__.py\n'}
+[3.763959] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.767819] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.771786] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.775711] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/libtello_msgs__rosidl_generator_py.so\n'}
+[3.780030] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/__init__.py\n'}
+[3.783908] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data.py\n'}
+[3.787941] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data_s.c\n'}
+[3.791702] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response.py\n'}
+[3.795660] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response_s.c\n'}
+[3.799749] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/__init__.py\n'}
+[3.803516] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action.py\n'}
+[3.807414] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action_s.c\n'}
+[3.807481] (-) TimerEvent: {}
+[3.811711] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.815699] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.819668] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.823771] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.823846] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.823979] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.824150] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/rust_packages/tello_msgs\n'}
+[3.830247] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/Cargo.toml\n'}
+[3.834279] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/build.rs\n'}
+[3.838322] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/lib.rs\n'}
+[3.842597] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/msg.rs\n'}
+[3.846483] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/msg/rmw.rs\n'}
+[3.850316] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/srv.rs\n'}
+[3.854486] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/srv/rmw.rs\n'}
+[3.859163] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/FlightData.idl\n'}
+[3.863030] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl\n'}
+[3.866882] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl\n'}
+[3.871035] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/FlightData.msg\n'}
+[3.874929] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg\n'}
+[3.878687] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv\n'}
+[3.882503] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg\n'}
+[3.886479] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg\n'}
+[3.890422] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs\n'}
+[3.894441] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs\n'}
+[3.898315] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh\n'}
+[3.902820] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv\n'}
+[3.906876] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/path.sh\n'}
+[3.907551] (-) TimerEvent: {}
+[3.910726] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/path.dsv\n'}
+[3.914504] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.bash\n'}
+[3.918691] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.sh\n'}
+[3.922732] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.zsh\n'}
+[3.926473] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.dsv\n'}
+[3.930375] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/package.dsv\n'}
+[3.934639] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs\n'}
+[3.938704] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.942381] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.946340] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.950201] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.953861] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.957784] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.961803] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.965814] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake\n'}
+[3.969868] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake\n'}
+[3.973761] (tello_msgs) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/package.xml\n'}
+[3.977845] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so\n'}
+[3.977973] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so" to ""\n'}
+[3.978013] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.978124] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.978157] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.978277] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.978313] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so\n'}
+[3.978391] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.978423] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.978526] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.978615] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.978713] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.978751] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so\n'}
+[3.978816] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.000143] (tello_msgs) StdoutLine: {'line': b"Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs'...\n"}
+[4.000270] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/__init__.py'...\n"}
+[4.000302] (tello_msgs) StdoutLine: {'line': b"Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg'...\n"}
+[4.000329] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/__init__.py'...\n"}
+[4.000357] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data.py'...\n"}
+[4.000378] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response.py'...\n"}
+[4.000399] (tello_msgs) StdoutLine: {'line': b"Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv'...\n"}
+[4.000416] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/__init__.py'...\n"}
+[4.000434] (tello_msgs) StdoutLine: {'line': b"Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action.py'...\n"}
+[4.002439] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_py.so\n'}
+[4.002708] (tello_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_py.so" to ""\n'}
+[4.002791] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cExport.cmake\n'}
+[4.002917] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.002968] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.003032] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.003063] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.003108] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.003134] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.003158] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.003238] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.003269] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.003291] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.003313] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.003335] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.003405] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.003435] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.003493] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.003518] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.005032] (tello_msgs) CommandEnded: {'returncode': 0}
+[4.007847] (-) TimerEvent: {}
+[4.012257] (tello_msgs) JobEnded: {'identifier': 'tello_msgs', 'rc': 0}
+[4.012523] (tello_driver) JobStarted: {'identifier': 'tello_driver'}
+[4.014076] (tello_gazebo) JobStarted: {'identifier': 'tello_gazebo'}
+[4.030582] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'cmake'}
+[4.031555] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_gazebo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble')]), 'shell': False}
+[4.041849] (tello_driver) JobProgress: {'identifier': 'tello_driver', 'progress': 'cmake'}
+[4.042977] (tello_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[4.084609] (tello_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.091782] (tello_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.107925] (-) TimerEvent: {}
+[4.208130] (-) TimerEvent: {}
+[4.211699] (tello_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.215481] (tello_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.305848] (tello_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.308185] (-) TimerEvent: {}
+[4.312401] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.362803] (tello_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.363067] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.365767] (tello_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.365964] (tello_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.366030] (tello_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.366172] (tello_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.366406] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.366700] (tello_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.367474] (tello_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.368074] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.408312] (-) TimerEvent: {}
+[4.426162] (tello_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.426376] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.429334] (tello_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.429502] (tello_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.429552] (tello_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.429641] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.429755] (tello_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.429857] (tello_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.430649] (tello_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.430776] (tello_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.503689] (tello_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.503826] (tello_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.508382] (-) TimerEvent: {}
+[4.534951] (tello_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.535117] (tello_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.547034] (tello_driver) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.12 (/opt/ros/humble/share/camera_calibration_parsers/cmake)\n'}
+[4.550822] (tello_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[4.550927] (tello_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[4.550962] (tello_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[4.550986] (tello_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[4.551007] (tello_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[4.551028] (tello_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.551049] (tello_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[4.551067] (tello_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[4.551083] (tello_gazebo) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[4.551099] (tello_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.551116] (tello_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[4.551133] (tello_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[4.552319] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[4.558579] (tello_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[4.608493] (-) TimerEvent: {}
+[4.622335] (tello_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[4.636107] (tello_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.638001] (tello_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.641782] (tello_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.646009] (tello_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[4.647299] (tello_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.654016] (tello_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.659231] (tello_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.683793] (tello_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.685777] (tello_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.708586] (-) TimerEvent: {}
+[4.794984] (tello_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[4.808674] (-) TimerEvent: {}
+[4.908929] (-) TimerEvent: {}
+[4.958308] (tello_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.961373] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.969039] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.971335] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.971523] (tello_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[4.974428] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[4.981495] (tello_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[4.998728] (tello_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.009018] (-) TimerEvent: {}
+[5.109235] (-) TimerEvent: {}
+[5.129271] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.134183] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.168287] (tello_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.209365] (-) TimerEvent: {}
+[5.246481] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.246642] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.309438] (-) TimerEvent: {}
+[5.334963] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.335099] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.409525] (-) TimerEvent: {}
+[5.417154] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.417353] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.497011] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.497152] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.509604] (-) TimerEvent: {}
+[5.513128] (tello_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.589339] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.589543] (tello_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.609699] (-) TimerEvent: {}
+[5.679016] (tello_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.709821] (-) TimerEvent: {}
+[5.810057] (-) TimerEvent: {}
+[5.910315] (-) TimerEvent: {}
+[6.010588] (-) TimerEvent: {}
+[6.110848] (-) TimerEvent: {}
+[6.192600] (tello_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.200363] (tello_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.210964] (-) TimerEvent: {}
+[6.259840] (tello_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.260240] (tello_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.311051] (-) TimerEvent: {}
+[6.314216] (tello_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.314652] (tello_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.378657] (tello_driver) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[6.384487] (tello_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.392505] (tello_driver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[6.393513] (tello_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[6.407140] (tello_driver) StdoutLine: {'line': b'-- Found ros2_shared: 0.1.0 (/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared/share/ros2_shared/cmake)\n'}
+[6.407727] (tello_driver) StdoutLine: {'line': b'-- Found tello_msgs: 0.1.0 (/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake)\n'}
+[6.411089] (-) TimerEvent: {}
+[6.451899] (tello_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.465951] (tello_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[6.471616] (tello_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver\n'}
+[6.478276] (tello_driver) CommandEnded: {'returncode': 0}
+[6.478711] (tello_driver) JobProgress: {'identifier': 'tello_driver', 'progress': 'build'}
+[6.478727] (tello_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver', '--', '-j16', '-l16'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[6.504804] (tello_driver) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/tello_joy_node.dir/src/tello_joy_node.cpp.o\x1b[0m\n'}
+[6.505050] (tello_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/tello_socket.cpp.o\x1b[0m\n'}
+[6.505137] (tello_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/tello_emulator.dir/src/tello_emulator.cpp.o\x1b[0m\n'}
+[6.510739] (tello_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_driver_node.cpp.o\x1b[0m\n'}
+[6.510927] (tello_driver) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/tello_joy_main.dir/src/tello_joy_main.cpp.o\x1b[0m\n'}
+[6.510973] (tello_driver) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/h264decoder/h264decoder.cpp.o\x1b[0m\n'}
+[6.511009] (tello_driver) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/video_socket.cpp.o\x1b[0m\n'}
+[6.511043] (tello_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/command_socket.cpp.o\x1b[0m\n'}
+[6.511082] (tello_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_driver_main.cpp.o\x1b[0m\n'}
+[6.511116] (-) TimerEvent: {}
+[6.511269] (tello_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/state_socket.cpp.o\x1b[0m\n'}
+[6.511370] (tello_driver) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/state_socket.cpp.o\x1b[0m\n'}
+[6.511413] (tello_driver) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/command_socket.cpp.o\x1b[0m\n'}
+[6.511655] (tello_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o\x1b[0m\n'}
+[6.511757] (tello_driver) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_socket.cpp.o\x1b[0m\n'}
+[6.511799] (tello_driver) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/tello_driver_node.cpp.o\x1b[0m\n'}
+[6.512560] (tello_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tello_joy_main.dir/src/tello_joy_node.cpp.o\x1b[0m\n'}
+[6.614642] (-) TimerEvent: {}
+[6.714933] (-) TimerEvent: {}
+[6.815303] (-) TimerEvent: {}
+[6.915639] (-) TimerEvent: {}
+[6.933395] (tello_driver) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/h264decoder/h264decoder.cpp.o\x1b[0m\n'}
+[7.015771] (-) TimerEvent: {}
+[7.122647] (-) TimerEvent: {}
+[7.222963] (-) TimerEvent: {}
+[7.323253] (-) TimerEvent: {}
+[7.423746] (-) TimerEvent: {}
+[7.525814] (-) TimerEvent: {}
+[7.626351] (-) TimerEvent: {}
+[7.728343] (-) TimerEvent: {}
+[7.831028] (-) TimerEvent: {}
+[7.931985] (-) TimerEvent: {}
+[8.032538] (-) TimerEvent: {}
+[8.133140] (-) TimerEvent: {}
+[8.233727] (-) TimerEvent: {}
+[8.333989] (-) TimerEvent: {}
+[8.376509] (tello_driver) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable tello_emulator\x1b[0m\n'}
+[8.435238] (-) TimerEvent: {}
+[8.536061] (-) TimerEvent: {}
+[8.571513] (tello_driver) StdoutLine: {'line': b'[ 81%] Built target tello_emulator\n'}
+[8.636203] (-) TimerEvent: {}
+[8.736826] (-) TimerEvent: {}
+[8.837666] (-) TimerEvent: {}
+[8.938108] (-) TimerEvent: {}
+[9.038728] (-) TimerEvent: {}
+[9.139030] (-) TimerEvent: {}
+[9.239311] (-) TimerEvent: {}
+[9.339640] (-) TimerEvent: {}
+[9.439986] (-) TimerEvent: {}
+[9.540267] (-) TimerEvent: {}
+[9.640590] (-) TimerEvent: {}
+[9.740989] (-) TimerEvent: {}
+[9.841371] (-) TimerEvent: {}
+[9.941662] (-) TimerEvent: {}
+[10.041991] (-) TimerEvent: {}
+[10.142337] (-) TimerEvent: {}
+[10.242669] (-) TimerEvent: {}
+[10.343096] (-) TimerEvent: {}
+[10.443480] (-) TimerEvent: {}
+[10.543866] (-) TimerEvent: {}
+[10.644183] (-) TimerEvent: {}
+[10.744504] (-) TimerEvent: {}
+[10.844835] (-) TimerEvent: {}
+[10.945190] (-) TimerEvent: {}
+[11.045540] (-) TimerEvent: {}
+[11.145953] (-) TimerEvent: {}
+[11.246317] (-) TimerEvent: {}
+[11.346652] (-) TimerEvent: {}
+[11.447012] (-) TimerEvent: {}
+[11.547348] (-) TimerEvent: {}
+[11.647739] (-) TimerEvent: {}
+[11.748139] (-) TimerEvent: {}
+[11.848544] (-) TimerEvent: {}
+[11.949060] (-) TimerEvent: {}
+[12.049445] (-) TimerEvent: {}
+[12.149853] (-) TimerEvent: {}
+[12.250251] (-) TimerEvent: {}
+[12.350748] (-) TimerEvent: {}
+[12.451101] (-) TimerEvent: {}
+[12.551466] (-) TimerEvent: {}
+[12.651794] (-) TimerEvent: {}
+[12.752127] (-) TimerEvent: {}
+[12.852510] (-) TimerEvent: {}
+[12.952804] (-) TimerEvent: {}
+[13.053163] (-) TimerEvent: {}
+[13.153494] (-) TimerEvent: {}
+[13.253849] (-) TimerEvent: {}
+[13.354258] (-) TimerEvent: {}
+[13.454651] (-) TimerEvent: {}
+[13.554929] (-) TimerEvent: {}
+[13.655195] (-) TimerEvent: {}
+[13.755478] (-) TimerEvent: {}
+[13.855819] (-) TimerEvent: {}
+[13.956099] (-) TimerEvent: {}
+[14.056367] (-) TimerEvent: {}
+[14.156618] (-) TimerEvent: {}
+[14.256864] (-) TimerEvent: {}
+[14.357307] (-) TimerEvent: {}
+[14.457621] (-) TimerEvent: {}
+[14.557931] (-) TimerEvent: {}
+[14.634363] (tello_driver) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable tello_joy_main\x1b[0m\n'}
+[14.658031] (-) TimerEvent: {}
+[14.684135] (tello_driver) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libtello_joy_node.so\x1b[0m\n'}
+[14.758151] (-) TimerEvent: {}
+[14.858457] (-) TimerEvent: {}
+[14.958785] (-) TimerEvent: {}
+[14.968783] (tello_driver) StdoutLine: {'line': b'[ 90%] Built target tello_joy_main\n'}
+[14.980224] (tello_driver) StdoutLine: {'line': b'[ 90%] Built target tello_joy_node\n'}
+[15.058884] (-) TimerEvent: {}
+[15.159155] (-) TimerEvent: {}
+[15.259381] (-) TimerEvent: {}
+[15.359591] (-) TimerEvent: {}
+[15.459858] (-) TimerEvent: {}
+[15.560133] (-) TimerEvent: {}
+[15.660372] (-) TimerEvent: {}
+[15.760656] (-) TimerEvent: {}
+[15.784246] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[15.786543] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[15.786809] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[15.860865] (-) TimerEvent: {}
+[15.905306] (tello_driver) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable tello_driver_main\x1b[0m\n'}
+[15.960974] (-) TimerEvent: {}
+[16.003176] (tello_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libtello_driver_node.so\x1b[0m\n'}
+[16.061053] (-) TimerEvent: {}
+[16.161334] (-) TimerEvent: {}
+[16.214470] (tello_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[16.261429] (-) TimerEvent: {}
+[16.361679] (-) TimerEvent: {}
+[16.461949] (-) TimerEvent: {}
+[16.505549] (tello_driver) StdoutLine: {'line': b'[100%] Built target tello_driver_node\n'}
+[16.562050] (-) TimerEvent: {}
+[16.662336] (-) TimerEvent: {}
+[16.668366] (tello_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[16.671545] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[16.682341] (tello_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[16.703897] (tello_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[16.725747] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[16.734373] (tello_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[16.756834] (tello_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[16.758191] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[16.758471] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[16.762746] (-) TimerEvent: {}
+[16.858007] (tello_driver) StdoutLine: {'line': b'[100%] Built target tello_driver_main\n'}
+[16.862812] (-) TimerEvent: {}
+[16.864656] (tello_driver) CommandEnded: {'returncode': 0}
+[16.865533] (tello_driver) JobProgress: {'identifier': 'tello_driver', 'progress': 'install'}
+[16.865562] (tello_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_driver'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/home/user/aerial_robotics/tello_ros2_humble_driver/install/ros2_shared:/opt/ros/humble')]), 'shell': False}
+[16.869538] (tello_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.869772] (tello_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.870193] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/library_path.sh\n'}
+[16.874739] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/library_path.dsv\n'}
+[16.879003] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/lib/libtello_driver_node.so\n'}
+[16.883263] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/lib/libtello_joy_node.so\n'}
+[16.887961] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/lib/tello_driver/tello_driver_main\n'}
+[16.892135] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/lib/tello_driver/tello_joy_main\n'}
+[16.896333] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/lib/tello_driver/tello_emulator\n'}
+[16.901619] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/cfg/camera_info.yaml\n'}
+[16.907075] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/launch/emulator_launch.py\n'}
+[16.911458] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/launch/emulators_launch.py\n'}
+[16.915860] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/launch/teleop_launch.py\n'}
+[16.920350] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/ament_index/resource_index/package_run_dependencies/tello_driver\n'}
+[16.924573] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/ament_index/resource_index/parent_prefix_path/tello_driver\n'}
+[16.928696] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/ament_prefix_path.sh\n'}
+[16.932796] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/ament_prefix_path.dsv\n'}
+[16.936968] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/path.sh\n'}
+[16.941128] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/environment/path.dsv\n'}
+[16.945206] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/local_setup.bash\n'}
+[16.949496] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/local_setup.sh\n'}
+[16.953466] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/local_setup.zsh\n'}
+[16.957414] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/local_setup.dsv\n'}
+[16.962645] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/package.dsv\n'}
+[16.962869] (-) TimerEvent: {}
+[16.967026] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/ament_index/resource_index/packages/tello_driver\n'}
+[16.971302] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/ament_index/resource_index/rclcpp_components/tello_driver\n'}
+[16.975727] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/cmake/tello_driverConfig.cmake\n'}
+[16.980137] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/cmake/tello_driverConfig-version.cmake\n'}
+[16.984451] (tello_driver) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_driver/share/tello_driver/package.xml\n'}
+[16.989612] (tello_driver) CommandEnded: {'returncode': 0}
+[16.996021] (tello_driver) JobEnded: {'identifier': 'tello_driver', 'rc': 0}
+[17.062977] (-) TimerEvent: {}
+[17.163232] (-) TimerEvent: {}
+[17.259453] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[17.263286] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[17.263379] (-) TimerEvent: {}
+[17.269332] (tello_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[17.286703] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[17.287875] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[17.288104] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[17.299725] (tello_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[17.310560] (tello_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[17.311433] (tello_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[17.340887] (tello_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[17.341639] (tello_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[17.342731] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[17.343038] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[17.343210] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[17.345147] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[17.345344] (tello_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[17.363468] (-) TimerEvent: {}
+[17.463656] (-) TimerEvent: {}
+[17.563906] (-) TimerEvent: {}
+[17.664200] (-) TimerEvent: {}
+[17.764506] (-) TimerEvent: {}
+[17.779034] (tello_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[17.784307] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[17.790998] (tello_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[17.807274] (tello_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[17.810878] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[17.816861] (tello_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[17.831831] (tello_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[17.832184] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[17.832381] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[17.832498] (tello_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[17.836737] (tello_gazebo) StdoutLine: {'line': b'-- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[17.837169] (tello_gazebo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[17.837302] (tello_gazebo) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[17.843112] (tello_gazebo) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[17.858399] (tello_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[17.864609] (-) TimerEvent: {}
+[17.890506] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.892517] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.896261] (tello_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.901192] (tello_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.907820] (tello_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.925845] (tello_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[17.926951] (tello_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[17.964727] (-) TimerEvent: {}
+[18.064986] (-) TimerEvent: {}
+[18.165343] (-) TimerEvent: {}
+[18.265644] (-) TimerEvent: {}
+[18.304079] (tello_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[18.365754] (-) TimerEvent: {}
+[18.466015] (-) TimerEvent: {}
+[18.566285] (-) TimerEvent: {}
+[18.666612] (-) TimerEvent: {}
+[18.766854] (-) TimerEvent: {}
+[18.867111] (-) TimerEvent: {}
+[18.960799] (tello_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[18.967145] (-) TimerEvent: {}
+[19.067361] (-) TimerEvent: {}
+[19.167554] (-) TimerEvent: {}
+[19.267757] (-) TimerEvent: {}
+[19.368023] (-) TimerEvent: {}
+[19.468408] (-) TimerEvent: {}
+[19.568845] (-) TimerEvent: {}
+[19.669104] (-) TimerEvent: {}
+[19.769358] (-) TimerEvent: {}
+[19.811216] (tello_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.814716] (tello_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[19.836831] (tello_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[19.842353] (tello_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.849982] (tello_gazebo) StdoutLine: {'line': b'-- Found tello_msgs: 0.1.0 (/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake)\n'}
+[19.869451] (-) TimerEvent: {}
+[19.888922] (tello_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.915701] (tello_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[19.918226] (tello_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo\n'}
+[19.925108] (tello_gazebo) CommandEnded: {'returncode': 0}
+[19.925546] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'build'}
+[19.926056] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble')]), 'shell': False}
+[19.951995] (tello_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o\x1b[0m\n'}
+[19.969602] (-) TimerEvent: {}
+[20.069869] (-) TimerEvent: {}
+[20.170082] (-) TimerEvent: {}
+[20.270331] (-) TimerEvent: {}
+[20.370606] (-) TimerEvent: {}
+[20.470878] (-) TimerEvent: {}
+[20.571153] (-) TimerEvent: {}
+[20.671373] (-) TimerEvent: {}
+[20.771600] (-) TimerEvent: {}
+[20.871862] (-) TimerEvent: {}
+[20.972112] (-) TimerEvent: {}
+[21.072534] (-) TimerEvent: {}
+[21.172798] (-) TimerEvent: {}
+[21.273061] (-) TimerEvent: {}
+[21.373297] (-) TimerEvent: {}
+[21.473577] (-) TimerEvent: {}
+[21.573843] (-) TimerEvent: {}
+[21.674070] (-) TimerEvent: {}
+[21.774341] (-) TimerEvent: {}
+[21.874643] (-) TimerEvent: {}
+[21.974933] (-) TimerEvent: {}
+[22.075214] (-) TimerEvent: {}
+[22.175485] (-) TimerEvent: {}
+[22.275820] (-) TimerEvent: {}
+[22.376189] (-) TimerEvent: {}
+[22.476502] (-) TimerEvent: {}
+[22.576885] (-) TimerEvent: {}
+[22.677259] (-) TimerEvent: {}
+[22.777557] (-) TimerEvent: {}
+[22.877848] (-) TimerEvent: {}
+[22.978175] (-) TimerEvent: {}
+[23.078490] (-) TimerEvent: {}
+[23.178796] (-) TimerEvent: {}
+[23.279227] (-) TimerEvent: {}
+[23.379587] (-) TimerEvent: {}
+[23.479912] (-) TimerEvent: {}
+[23.580227] (-) TimerEvent: {}
+[23.680512] (-) TimerEvent: {}
+[23.780781] (-) TimerEvent: {}
+[23.881569] (-) TimerEvent: {}
+[23.981930] (-) TimerEvent: {}
+[24.082273] (-) TimerEvent: {}
+[24.182541] (-) TimerEvent: {}
+[24.282938] (-) TimerEvent: {}
+[24.383299] (-) TimerEvent: {}
+[24.483639] (-) TimerEvent: {}
+[24.584142] (-) TimerEvent: {}
+[24.684508] (-) TimerEvent: {}
+[24.784803] (-) TimerEvent: {}
+[24.885079] (-) TimerEvent: {}
+[24.985370] (-) TimerEvent: {}
+[25.085776] (-) TimerEvent: {}
+[25.186134] (-) TimerEvent: {}
+[25.286498] (-) TimerEvent: {}
+[25.386830] (-) TimerEvent: {}
+[25.487131] (-) TimerEvent: {}
+[25.587474] (-) TimerEvent: {}
+[25.687753] (-) TimerEvent: {}
+[25.788025] (-) TimerEvent: {}
+[25.888276] (-) TimerEvent: {}
+[25.988571] (-) TimerEvent: {}
+[26.088869] (-) TimerEvent: {}
+[26.189141] (-) TimerEvent: {}
+[26.289565] (-) TimerEvent: {}
+[26.389910] (-) TimerEvent: {}
+[26.490226] (-) TimerEvent: {}
+[26.590705] (-) TimerEvent: {}
+[26.691033] (-) TimerEvent: {}
+[26.791325] (-) TimerEvent: {}
+[26.891763] (-) TimerEvent: {}
+[26.992125] (-) TimerEvent: {}
+[27.092424] (-) TimerEvent: {}
+[27.192754] (-) TimerEvent: {}
+[27.293021] (-) TimerEvent: {}
+[27.393279] (-) TimerEvent: {}
+[27.493633] (-) TimerEvent: {}
+[27.593951] (-) TimerEvent: {}
+[27.694259] (-) TimerEvent: {}
+[27.794641] (-) TimerEvent: {}
+[27.894967] (-) TimerEvent: {}
+[27.995251] (-) TimerEvent: {}
+[28.095569] (-) TimerEvent: {}
+[28.195978] (-) TimerEvent: {}
+[28.296258] (-) TimerEvent: {}
+[28.396537] (-) TimerEvent: {}
+[28.496833] (-) TimerEvent: {}
+[28.597114] (-) TimerEvent: {}
+[28.697430] (-) TimerEvent: {}
+[28.797735] (-) TimerEvent: {}
+[28.898164] (-) TimerEvent: {}
+[28.998447] (-) TimerEvent: {}
+[29.098783] (-) TimerEvent: {}
+[29.199089] (-) TimerEvent: {}
+[29.299460] (-) TimerEvent: {}
+[29.399767] (-) TimerEvent: {}
+[29.500034] (-) TimerEvent: {}
+[29.600357] (-) TimerEvent: {}
+[29.700635] (-) TimerEvent: {}
+[29.800925] (-) TimerEvent: {}
+[29.901250] (-) TimerEvent: {}
+[30.001735] (-) TimerEvent: {}
+[30.102196] (-) TimerEvent: {}
+[30.202636] (-) TimerEvent: {}
+[30.302949] (-) TimerEvent: {}
+[30.403271] (-) TimerEvent: {}
+[30.503593] (-) TimerEvent: {}
+[30.603872] (-) TimerEvent: {}
+[30.704246] (-) TimerEvent: {}
+[30.804637] (-) TimerEvent: {}
+[30.905079] (-) TimerEvent: {}
+[31.005334] (-) TimerEvent: {}
+[31.105673] (-) TimerEvent: {}
+[31.205988] (-) TimerEvent: {}
+[31.229551] (tello_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libTelloPlugin.so\x1b[0m\n'}
+[31.306127] (-) TimerEvent: {}
+[31.406435] (-) TimerEvent: {}
+[31.506773] (-) TimerEvent: {}
+[31.607084] (-) TimerEvent: {}
+[31.707359] (-) TimerEvent: {}
+[31.729355] (tello_gazebo) StdoutLine: {'line': b'[100%] Built target TelloPlugin\n'}
+[31.735065] (tello_gazebo) CommandEnded: {'returncode': 0}
+[31.735494] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'install'}
+[31.736096] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo'], 'cwd': '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('NAME', 'JonathanLenovo'), ('WSL_INTEROP', '/run/WSL/2793_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.1.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Jonat/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Jonat/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Jonat/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_gazebo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs:/opt/ros/humble')]), 'shell': False}
+[31.739617] (tello_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.739861] (tello_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.740192] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/lib/libTelloPlugin.so\n'}
+[31.751203] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/asphalt_plane/materials/scripts/asphalt.material\n'}
+[31.755669] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/asphalt_plane/materials/textures/tarmac.png\n'}
+[31.759742] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/asphalt_plane/model-1_4.sdf\n'}
+[31.764022] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/asphalt_plane/model.config\n'}
+[31.768429] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/asphalt_plane/model.sdf\n'}
+[31.772755] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_blue/circle_gate.dae\n'}
+[31.776920] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_blue/model.config\n'}
+[31.781298] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_blue/model.sdf\n'}
+[31.785700] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green/circle_gate.dae\n'}
+[31.789953] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green/model.config\n'}
+[31.794088] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green/model.sdf\n'}
+[31.798393] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_short/circle_gate_short.dae\n'}
+[31.802318] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_short/model.config\n'}
+[31.806741] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_short/model.sdf\n'}
+[31.807404] (-) TimerEvent: {}
+[31.811470] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_tall/circle_gate_tall.dae\n'}
+[31.815747] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_tall/model.config\n'}
+[31.819937] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_green_tall/model.sdf\n'}
+[31.824095] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_red/circle_gate.dae\n'}
+[31.828415] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_red/model.config\n'}
+[31.832697] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/circle_gate_red/model.sdf\n'}
+[31.836958] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/euro_pallet/meshes/pallet.dae\n'}
+[31.841045] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/euro_pallet/model.config\n'}
+[31.845185] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/euro_pallet/model.sdf\n'}
+[31.849356] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_blue/model.config\n'}
+[31.853592] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_blue/model.sdf\n'}
+[31.857865] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_blue/square_gate.dae\n'}
+[31.862318] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green/model.config\n'}
+[31.867293] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green/model.sdf\n'}
+[31.871439] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green/square_gate.dae\n'}
+[31.875885] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_short/model.config\n'}
+[31.880290] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_short/model.sdf\n'}
+[31.884639] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_short/square_gate_short.dae\n'}
+[31.889097] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_tall/model.config\n'}
+[31.893281] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_tall/model.sdf\n'}
+[31.897508] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_green_tall/square_gate_tall.dae\n'}
+[31.902065] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_red/model.config\n'}
+[31.906463] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_red/model.sdf\n'}
+[31.907465] (-) TimerEvent: {}
+[31.911411] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/square_gate_red/square_gate.dae\n'}
+[31.915814] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/materials/scripts/stopsign.material\n'}
+[31.920587] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/materials/textures/StopSign_Diffuse.png\n'}
+[31.925579] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/materials/textures/StopSign_Spec.png\n'}
+[31.930077] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/meshes/stop_sign.dae\n'}
+[31.935140] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/model-1_3.sdf\n'}
+[31.939459] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/model-1_4.sdf\n'}
+[31.943765] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/model.config\n'}
+[31.947925] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/models/stop_sign/model.sdf\n'}
+[31.953651] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/worlds/demo_track.world\n'}
+[31.958000] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/worlds/simple.world\n'}
+[31.963640] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/launch/__pycache__/vlam_launch.cpython-38.pyc\n'}
+[31.967856] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/launch/demo_track_launch.py\n'}
+[31.972054] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/launch/simple_launch.py\n'}
+[31.976332] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/lib/tello_gazebo/inject_entity.py\n'}
+[31.980805] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/ament_index/resource_index/package_run_dependencies/tello_gazebo\n'}
+[31.985222] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/ament_index/resource_index/parent_prefix_path/tello_gazebo\n'}
+[31.989597] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.sh\n'}
+[31.993784] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.dsv\n'}
+[31.997989] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/environment/path.sh\n'}
+[32.002354] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/environment/path.dsv\n'}
+[32.006477] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/local_setup.bash\n'}
+[32.007523] (-) TimerEvent: {}
+[32.011145] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/local_setup.sh\n'}
+[32.015779] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/local_setup.zsh\n'}
+[32.020083] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/local_setup.dsv\n'}
+[32.024343] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/package.dsv\n'}
+[32.028609] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/ament_index/resource_index/packages/tello_gazebo\n'}
+[32.032797] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig.cmake\n'}
+[32.037059] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig-version.cmake\n'}
+[32.041466] (tello_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_gazebo/share/tello_gazebo/package.xml\n'}
+[32.047319] (tello_gazebo) CommandEnded: {'returncode': 0}
+[32.055127] (tello_gazebo) JobEnded: {'identifier': 'tello_gazebo', 'rc': 0}
+[32.055665] (-) EventReactorShutdown: {}

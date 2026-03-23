@@ -1,0 +1,266 @@
+[0.011s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.431s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.483s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.548s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.555s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.671s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.689s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.821s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.861s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[1.028s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.323s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.324s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.456s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.456s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.456s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.456s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.466s] -- Found PythonExtra: .so  
+[1.541s] -- Configuring done
+[1.564s] -- Generating done
+[1.569s] -- Build files have been written to: /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs
+[1.573s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/aerial_robotics/tello_ros2_humble_driver/tello_ros/tello_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs
+[1.574s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs -- -j16 -l16
+[1.596s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.598s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.598s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.605s] [  6%] Built target ament_cmake_python_symlink_tello_msgs
+[1.720s] running egg_info
+[1.720s] creating tello_msgs.egg-info
+[1.720s] writing tello_msgs.egg-info/PKG-INFO
+[1.721s] writing dependency_links to tello_msgs.egg-info/dependency_links.txt
+[1.721s] writing top-level names to tello_msgs.egg-info/top_level.txt
+[1.721s] writing manifest file 'tello_msgs.egg-info/SOURCES.txt'
+[1.722s] reading manifest file 'tello_msgs.egg-info/SOURCES.txt'
+[1.723s] writing manifest file 'tello_msgs.egg-info/SOURCES.txt'
+[1.736s] [  6%] Built target ament_cmake_python_build_tello_msgs_egg
+[1.878s] [  6%] Built target tello_msgs__rs
+[1.921s] [  6%] Built target tello_msgs__cpp
+[1.925s] [  8%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/msg/detail/flight_data__functions.c.o[0m
+[1.925s] [ 10%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/srv/detail/tello_action__functions.c.o[0m
+[1.925s] [ 12%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_c.dir/rosidl_generator_c/tello_msgs/msg/detail/tello_response__functions.c.o[0m
+[1.927s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.927s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.927s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.979s] [ 20%] [32m[1mLinking C shared library libtello_msgs__rosidl_generator_c.so[0m
+[2.041s] [ 20%] Built target tello_msgs__rosidl_generator_c
+[2.047s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.047s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.048s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.234s] [ 29%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/msg/tello_response__type_support.cpp.o[0m
+[2.234s] [ 31%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/msg/flight_data__type_support.cpp.o[0m
+[2.237s] [ 33%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tello_msgs/srv/tello_action__type_support.cpp.o[0m
+[2.251s] [ 35%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/msg/detail/tello_response__type_support.cpp.o[0m
+[2.251s] [ 37%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/msg/detail/flight_data__type_support.cpp.o[0m
+[2.251s] [ 39%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tello_msgs/srv/detail/tello_action__type_support.cpp.o[0m
+[2.269s] [ 41%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/msg/detail/dds_fastrtps/tello_response__type_support.cpp.o[0m
+[2.269s] [ 45%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/srv/detail/dds_fastrtps/tello_action__type_support.cpp.o[0m
+[2.269s] [ 45%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tello_msgs/msg/detail/dds_fastrtps/flight_data__type_support.cpp.o[0m
+[2.405s] [ 50%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/srv/tello_action__type_support.cpp.o[0m
+[2.405s] [ 50%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/msg/flight_data__type_support.cpp.o[0m
+[2.405s] [ 52%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tello_msgs/msg/tello_response__type_support.cpp.o[0m
+[2.438s] [ 54%] [32m[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_c.so[0m
+[2.450s] [ 56%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/msg/detail/tello_response__type_support.c.o[0m
+[2.451s] [ 58%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/msg/detail/flight_data__type_support.c.o[0m
+[2.451s] [ 60%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tello_msgs/srv/detail/tello_action__type_support.c.o[0m
+[2.453s] [ 64%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/msg/detail/flight_data__type_support_c.cpp.o[0m
+[2.453s] [ 64%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/msg/detail/tello_response__type_support_c.cpp.o[0m
+[2.455s] [ 66%] [32mBuilding CXX object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tello_msgs/srv/detail/tello_action__type_support_c.cpp.o[0m
+[2.490s] [ 68%] [32m[1mLinking C shared library libtello_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.491s] [ 70%] [32m[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_cpp.so[0m
+[2.530s] [ 70%] Built target tello_msgs__rosidl_typesupport_c
+[2.540s] [ 70%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[2.545s] [ 70%] Built target tello_msgs__rosidl_typesupport_cpp
+[2.586s] [ 72%] [32m[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.598s] [ 75%] [32m[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.647s] [ 75%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[2.669s] [ 77%] [32m[1mLinking CXX shared library libtello_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.672s] [ 77%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[2.744s] [ 77%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[2.756s] [ 77%] Built target tello_msgs
+[2.765s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.280s] [ 79%] Built target tello_msgs__py
+[3.290s] [ 81%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/msg/_flight_data_s.c.o[0m
+[3.290s] [ 83%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/srv/_tello_action_s.c.o[0m
+[3.290s] [ 85%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_generator_py.dir/rosidl_generator_py/tello_msgs/msg/_tello_response_s.c.o[0m
+[3.372s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tello_msgs/libtello_msgs__rosidl_generator_py.so[0m
+[3.428s] [ 87%] Built target tello_msgs__rosidl_generator_py
+[3.438s] [ 91%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.438s] [ 91%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.439s] [ 93%] [32mBuilding C object CMakeFiles/tello_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.485s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.485s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.485s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.531s] [100%] Built target tello_msgs__rosidl_typesupport_introspection_c__pyext
+[3.531s] [100%] Built target tello_msgs__rosidl_typesupport_c__pyext
+[3.531s] [100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.538s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs -- -j16 -l16
+[3.539s] Invoking command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs
+[3.543s] -- Install configuration: ""
+[3.543s] -- Execute custom install script
+[3.543s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs
+[3.548s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__functions.h
+[3.552s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__struct.h
+[3.557s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__type_support.h
+[3.561s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__functions.h
+[3.565s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__struct.h
+[3.569s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__type_support.h
+[3.573s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/flight_data.h
+[3.577s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.581s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/tello_response.h
+[3.586s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__functions.h
+[3.590s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__struct.h
+[3.593s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__type_support.h
+[3.598s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/tello_action.h
+[3.602s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/library_path.sh
+[3.606s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/library_path.dsv
+[3.611s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_c.h
+[3.615s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_c.h
+[3.619s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.623s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_c.h
+[3.627s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_c.h
+[3.631s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_c.h
+[3.635s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.639s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_c.h
+[3.643s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__builder.hpp
+[3.647s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__struct.hpp
+[3.651s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__traits.hpp
+[3.655s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__type_support.hpp
+[3.659s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__builder.hpp
+[3.662s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__struct.hpp
+[3.666s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__traits.hpp
+[3.670s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__type_support.hpp
+[3.675s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/flight_data.hpp
+[3.679s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.683s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/tello_response.hpp
+[3.687s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__builder.hpp
+[3.691s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__struct.hpp
+[3.695s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__traits.hpp
+[3.699s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__type_support.hpp
+[3.703s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/tello_action.hpp
+[3.707s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.711s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_fastrtps_cpp.hpp
+[3.715s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.719s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_fastrtps_cpp.hpp
+[3.723s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/flight_data__rosidl_typesupport_introspection_cpp.hpp
+[3.727s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/msg/detail/tello_response__rosidl_typesupport_introspection_cpp.hpp
+[3.731s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/include/tello_msgs/tello_msgs/srv/detail/tello_action__rosidl_typesupport_introspection_cpp.hpp
+[3.735s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh
+[3.739s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv
+[3.744s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[3.748s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[3.752s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[3.755s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[3.760s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/__init__.py
+[3.764s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_c.c
+[3.767s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.771s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/_tello_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.775s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/libtello_msgs__rosidl_generator_py.so
+[3.780s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/__init__.py
+[3.783s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data.py
+[3.788s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data_s.c
+[3.791s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response.py
+[3.795s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response_s.c
+[3.799s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/__init__.py
+[3.803s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action.py
+[3.807s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action_s.c
+[3.811s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.815s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.819s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.823s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.823s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.824s] -- Up-to-date symlink: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.824s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/rust_packages/tello_msgs
+[3.830s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/Cargo.toml
+[3.834s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/build.rs
+[3.838s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/lib.rs
+[3.842s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/msg.rs
+[3.846s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/msg/rmw.rs
+[3.850s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/srv.rs
+[3.854s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/rust/src/srv/rmw.rs
+[3.859s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/FlightData.idl
+[3.863s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl
+[3.866s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl
+[3.871s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/FlightData.msg
+[3.875s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg
+[3.878s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv
+[3.882s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg
+[3.886s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg
+[3.890s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs
+[3.894s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs
+[3.898s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh
+[3.902s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv
+[3.906s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/path.sh
+[3.910s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/environment/path.dsv
+[3.914s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.bash
+[3.918s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.sh
+[3.922s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.zsh
+[3.926s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/local_setup.dsv
+[3.930s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/package.dsv
+[3.934s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs
+[3.938s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake
+[3.942s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.946s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.950s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.953s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.957s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.961s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.965s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake
+[3.969s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake
+[3.973s] -- Symlinking: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/package.xml
+[3.977s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.978s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so
+[3.978s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so" to ""
+[4.000s] Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/__init__.py'...
+[4.000s] Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/__init__.py'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_flight_data.py'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/msg/_tello_response.py'...
+[4.000s] Listing '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/__init__.py'...
+[4.000s] Compiling '/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/local/lib/python3.10/dist-packages/tello_msgs/srv/_tello_action.py'...
+[4.002s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_py.so
+[4.002s] -- Set runtime path of "/home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/lib/libtello_msgs__rosidl_generator_py.so" to ""
+[4.002s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cExport.cmake
+[4.002s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_cppExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/tello_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_pyExport.cmake
+[4.003s] -- Installing: /home/user/aerial_robotics/tello_ros2_humble_driver/install/tello_msgs/share/tello_msgs/cmake/export_tello_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.005s] Invoked command in '/home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/aerial_robotics/tello_ros2_humble_driver/build/tello_msgs
