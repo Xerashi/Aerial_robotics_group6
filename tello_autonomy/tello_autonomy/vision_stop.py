@@ -58,7 +58,7 @@ class TelloVisionNode(Node):
         # Blind fly logic
         self.is_blind_flying = False
         self.blind_fly_start_time = 0.0
-        self.blind_fly_duration = 4.4
+        self.blind_fly_duration = 5.5
 
         self.alignment_counter = 0
         self.REQUIRED_ALIGNMENT_FRAMES = 10
@@ -222,20 +222,20 @@ class TelloVisionNode(Node):
         # ALIGNMENT LOGIC
         # -------------------------
         if self.gate_count >= 2:
-            DISTANCE_THRESHOLD = 0.18
-            self.blind_fly_duration = 3.5
+            DISTANCE_THRESHOLD = 65000
+            self.blind_fly_duration = 3.0
         else:
-            DISTANCE_THRESHOLD = 0.05
+            DISTANCE_THRESHOLD = 25000
 
         if abs(error_x) < 0.08 and abs(error_y) < 0.08:
             cmd.linear.x = self.kp_forward * error_d
-            if error_d < DISTANCE_THRESHOLD:
+            if area > DISTANCE_THRESHOLD:
                 self.alignment_counter += 1
             else:
                 self.alignment_counter = max(0, self.alignment_counter - 1)
         else:
             self.alignment_counter = max(0, self.alignment_counter - 1)
-            if error_d > 0.08:
+            if area < DISTANCE_THRESHOLD * 0.8:
                 cmd.linear.x = 0.20
             else:
                 cmd.linear.x = 0.0
