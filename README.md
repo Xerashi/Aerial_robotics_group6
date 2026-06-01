@@ -1,3 +1,6 @@
+# `Click here to go to the SETUP if you do not want to know more about the default Tello Drone environment`
+- [Setup Guide](./SETUP.md)
+
 # `tello_ros2_humble_driver`
 
 
